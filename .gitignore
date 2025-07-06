@@ -1,0 +1,38 @@
+# Folder upload (biasanya berisi gambar yang diupload user)
+uploads/
+
+# File konfigurasi lokal
+config.php
+
+# Cache dan file temporer
+*.log
+*.cache
+*.tmp
+
+# Sistem MacOS
+.DS_Store
+
+# File backup editor
+*~
+
+# Vendor jika pakai composer (jika tidak, abaikan)
+vendor/
+
+# Node modules (jika pakai npm/JS tambahan)
+node_modules/
+
+# Environment file (jika Anda tambah config rahasia)
+.env
+
+# Folder IDE/editor
+.vscode/
+.idea/
+
+# XAMPP system files
+phpmyadmin/
+
+# Database lokal (jika Anda export SQL, sebaiknya tidak dimasukkan)
+*.sql
+
+# Session file PHP (jika disimpan manual)
+sessions/
