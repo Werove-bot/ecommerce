@@ -19,8 +19,24 @@ $all  = $conn->query(
 ?>
 
 <h1 class="text-2xl font-bold mb-4">Selamat Datang di KacamataKu</h1>
-<p class="mb-6">KacamataKu adalah toko kacamata terpercaya yang menyediakan berbagai pilihan kacamata berkualitas untuk kebutuhan sehari-hari, fashion, maupun kesehatan mata.
-Kami menghadirkan produk terbaik dengan harga terjangkau dan desain kekinian yang sesuai untuk segala usia.</p>
+<div class="bg-gradient-to-r from-blue-50 to-indigo-100 rounded-lg shadow-md p-6 mb-6 border-l-4 border-blue-500">
+  <div class="flex items-start">
+    <div class="flex-shrink-0 mr-4">
+      <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="flex-1">
+      <h2 class="text-lg font-semibold text-gray-800 mb-2">Tentang KacamataKu</h2>
+      <p class="text-gray-600 leading-relaxed">
+        KacamataKu adalah toko kacamata terpercaya yang menyediakan berbagai pilihan kacamata berkualitas untuk kebutuhan sehari-hari, fashion, maupun kesehatan mata. Kami menghadirkan produk terbaik dengan harga terjangkau dan desain kekinian yang sesuai untuk segala usia.
+      </p>
+    </div>
+  </div>
+</div>
 
 <!-- ===== CAROUSEL: hanya rekomendasi ===== -->
 <?php if ($reco): ?>
